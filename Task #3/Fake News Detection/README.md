@@ -1,7 +1,3 @@
-Okay, I will generate documentation for the `Fake News Detection.ipynb` notebook, styled similarly to the provided `README.md`.
-
----
-
 # Fake News Detection using Machine Learning
 
 This project demonstrates how to build a machine learning model to classify news articles as either **REAL** or **FAKE**.
