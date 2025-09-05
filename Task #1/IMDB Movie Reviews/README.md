@@ -1,10 +1,10 @@
-# 🎬 IMDB Sentiment Analysis with Logistic Regression & Naive Bayes
+# IMDB Sentiment Analysis with Logistic Regression & Naive Bayes
 
 This project performs **binary sentiment analysis** (positive/negative) on IMDB movie reviews using machine learning models. It includes preprocessing, TF-IDF feature extraction, classification, and evaluation.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: [Kaggle: IMDB Movie Reviews Dataset](https://www.kaggle.com/datasets/vishakhdapat/imdb-movie-reviews/data)
 - **Format**: CSV
@@ -14,7 +14,7 @@ This project performs **binary sentiment analysis** (positive/negative) on IMDB 
 
 ---
 
-## ⚙️ Setup and Dependencies
+##  Setup and Dependencies
 
 ```python
 import pandas as pd
@@ -46,7 +46,7 @@ nltk.download('wordnet')
 
 ---
 
-## 🧹 Preprocessing
+## Preprocessing
 
 1. Lowercase text
 2. Remove punctuation and numbers
@@ -56,19 +56,19 @@ nltk.download('wordnet')
 
 ---
 
-## 🔍 Feature Extraction
+## Feature Extraction
 
 TF-IDF vectorizer to convert text reviews into numerical features.
 
 ---
 
-## 🔠 Label Encoding
+## Label Encoding
 
 `positive` → 1, `negative` → 0 using `LabelEncoder`.
 
 ---
 
-## 🔧 Models Used
+## Models Used
 
 ### 1. Logistic Regression
 
@@ -93,7 +93,7 @@ TF-IDF vectorizer to convert text reviews into numerical features.
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 - Accuracy, Precision, Recall, F1-score
 - Confusion Matrix
@@ -101,20 +101,20 @@ TF-IDF vectorizer to convert text reviews into numerical features.
 
 ---
 
-## 📈 Visualization
+## Visualization
 
 - Confusion matrix plots
 - Bar charts of most common words per sentiment class
 
 ---
 
-## ✅ Results
+## Results
 
 Both models performed well after tuning. TF-IDF provided informative features. Logistic Regression and Naive Bayes had complementary strengths.
 
 ---
 
-## 🤖 Saving Models for deployment
+## Saving Models for deployment
 
 ```python
 dump(grid_search_logreg, 'Saved Models/GridSearchforLogisticRegression.pkl')
@@ -125,13 +125,13 @@ dump(le, 'Saved Models/SentimentLabelEncoder.pkl')
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 A complete end-to-end sentiment analysis project demonstrating classic ML-based NLP.
 
 ---
 
-## 📂 Structure
+## Structure
 
 ```
 .
