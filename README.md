@@ -1,4 +1,4 @@
-# Machine Learning and NLP Project Portfolio
+# Machine Learning Project and NLP Portfolio
 
 ## Overview
 
