@@ -1,10 +1,10 @@
-# Machine Learning Project and NLP Portfolio
+# NLP and Machine Learning Project Portfolio
 
 ## Overview
 
 This portfolio comprises seven comprehensive projects in Natural Language Processing (NLP) and Machine Learning, each addressing distinct challenges in text analysis, classification, summarization, and information extraction. The projects demonstrate both traditional machine learning approaches and modern transformer-based techniques, showcasing a wide range of NLP applications.
 
-## Task Summaries
+## Project Summaries
 
 ### 1. IMDB Sentiment Analysis with Logistic Regression & Naive Bayes
 
